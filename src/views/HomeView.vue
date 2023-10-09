@@ -1,14 +1,15 @@
-<script s>
-import HomePage from '../components/HomePage.vue';
+<script>
+import MenuBar from '../components/MenuBar.vue';
 export default {
   components: {
-    HomePage,
+    MenuBar
   },
 };
 </script>
 
 <template>
   <main>
+    <MenuBar/>
     <HomePage></HomePage>
   </main>
 </template>
