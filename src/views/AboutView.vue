@@ -6,8 +6,11 @@
   },
   data() {
     return {
-      title: 'Hello from the parent!',
-      discription: "Hello bangladesh card body"
+      title: 'Bangladesh',
+      discription: "Hello bangladesh card body",
+
+      title2: 'India',
+      discription2: "Hello bangladesh card body",
     };
   },
 };
@@ -15,10 +18,7 @@
 
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <TestView/>
     <CardComponents :title="title" :discription="discription"/>
-    <CardComponents :title="title" :discription="discription"/>
-
+    <CardComponents :title="title2" :discription="discription2"/>
   </div>
 </template>
