@@ -3,8 +3,6 @@ export default {
   props: {
     title: String,
     discription: String,
-    // title2: String,
-    // discription2: String
   },
 };
 </script>
