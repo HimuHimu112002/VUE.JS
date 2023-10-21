@@ -24,9 +24,12 @@
                                         </li>
                                     </router-link>
 
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Project</a>
-                                    </li>
+                                    <router-link to="/project">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Project</a>
+                                        </li>
+                                    </router-link>
+
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page" href="#">Testimonial</a>
                                     </li>
